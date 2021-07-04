@@ -1,6 +1,6 @@
 import cv2,glob
 
-images=glob.glob("*.jpg")
+images=glob.glob("*.png")
 
 for image in images:
     facedata = "haarcascade_frontalface_alt.xml"
